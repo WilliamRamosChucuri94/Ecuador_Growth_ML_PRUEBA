@@ -1,0 +1,25 @@
+{
+  "modelo_seleccionado": "Ridge",
+  "mae_prueba": 0.8637917573808699,
+  "rmse_prueba": 1.0152795650186288,
+  "corte_entrenamiento": "2021Q3",
+  "inicio_prueba": "2021Q4",
+  "comparacion_cv": [
+    {
+      "modelo": "Ridge",
+      "mae_cv": 1.1091033246863449,
+      "mae_cv_desv": 0.5104119083426966
+    },
+    {
+      "modelo": "Gradient Boosting",
+      "mae_cv": 1.2577370522743583,
+      "mae_cv_desv": 0.4890575066937704
+    },
+    {
+      "modelo": "Random Forest",
+      "mae_cv": 1.3320373259176719,
+      "mae_cv_desv": 0.5318155781243131
+    }
+  ],
+  "datos": "100% simulados; no representa un pronóstico de Ecuador"
+}
